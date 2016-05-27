@@ -2,8 +2,10 @@ package com.mark.iosframe.Bean;
 
 import android.graphics.drawable.Drawable;
 
+
 /**
- * Created by john on 2016/5/14.
+ * 作者：john on 2016/5/16 11:33
+ * 邮箱：mark14528648@yahoo.co.jp
  */
 public class XApplicationInfo extends XBaseBean{
     private Drawable icon;

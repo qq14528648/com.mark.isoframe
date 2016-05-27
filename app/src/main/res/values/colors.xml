@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="activity_navbar_bg">#f0f0f0</color>
+    <color name="nav_bar_item_text_unchecked">#424242</color>
+    <color name="nav_bar_item_text_checked">#008B45</color>
 </resources>

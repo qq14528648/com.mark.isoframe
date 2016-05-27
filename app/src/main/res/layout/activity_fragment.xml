@@ -1,10 +1,34 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:id="@+id/fragmentContainer"
-             tools:context="com.mark.iosframe.SingleFragmentActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/activity_navbar_bg"
+              android:orientation="vertical"
+              tools:context="com.mark.iosframe.NavBarTestActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+    <com.mark.iosframe.UserInterface.NavBar
+        android:id="@+id/navBottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    </com.mark.iosframe.UserInterface.NavBar>
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/radioGroup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!---->
+    <!--</RadioGroup>-->
+
+</LinearLayout>
 
 
-
-</FrameLayout>

@@ -7,9 +7,13 @@ import com.mark.iosframe.Bean.XBaseBean;
 
 import java.util.List;
 
+
 /**
- * Created by john on 2016/5/14.
+ * 作者：john on 2016/5/16 11:33
+ * 邮箱：mark14528648@yahoo.co.jp
+ *
  */
+
 public interface IProvider {
       List<? extends XBaseBean> queryAll( );
         XBaseBean query(String parameter );
